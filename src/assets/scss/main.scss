@@ -1,0 +1,14 @@
+@import "./abstracts/variables";
+
+$custom-colors: (
+  "custom-color": #8F00FF
+);
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/variables-dark";
+@import "node_modules/bootstrap/scss/mixins";
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "node_modules/bootstrap/scss/bootstrap";
