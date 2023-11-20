@@ -1,1 +1,1 @@
-import "../../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+import * as IconStyle from "../../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
